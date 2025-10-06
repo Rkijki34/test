@@ -27,3 +27,10 @@ This guide shows you how to bypass that auto-selection and install **Windows 10 
    Retail
    [VL]
    0
+   ```
+
+```bash
+   # Save as 'Optimize-Windows.ps1' and run:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\Optimize-Windows.ps1
+```
